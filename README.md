@@ -1,8 +1,3 @@
-Here’s your final README content, ready to copy and paste:  
-
----
-
-```md
 # Serenata 🎶  
 
 Serenata is a facial emotion-based song recommendation system that enhances music discovery by analyzing user emotions from an image and suggesting songs that match the mood. It integrates DeepFace for emotion detection, Gemini API for generating recommendations, and Spotify API to personalize suggestions based on listening history.  
@@ -26,30 +21,30 @@ Ensure you have the following installed:
 ## 🚀 Installation  
 
 1. **Clone the repository:**  
-```bash
-git clone https://github.com/yourusername/serenata.git
-cd serenata
-```  
+   ```bash
+   git clone https://github.com/yourusername/serenata.git
+   cd serenata
+   ```  
 2. **Set up a virtual environment:**  
-```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-```  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Windows: venv\Scripts\activate
+   ```  
 3. **Install dependencies:**  
-```bash
-pip install deepface google-generativeai requests tensorflow
-```  
+   ```bash
+   pip install deepface google-generativeai requests tensorflow
+   ```  
 4. **Configure API keys:**  
-- **Spotify API:** Replace `client_id` and `client_secret` with your credentials.  
-- **Gemini API:** Set `API_KEY` to your Google Gemini API key.  
+   - **Spotify API:** Replace `client_id` and `client_secret` with your credentials.  
+   - **Gemini API:** Set `API_KEY` to your Google Gemini API key.  
 
 ## 🎭 How It Works  
 
 1. **Image Input:** Place an image (default: `abc.png`) in the project folder or update `img_path` in the script.  
 2. **Run the script:**  
-```bash
-python cutie.py
-```  
+   ```bash
+   python cutie.py
+   ```  
 3. **What Happens Next?**  
    - The system analyzes the image to detect dominant facial emotions.  
    - Based on the emotion, the Gemini API suggests a relevant song.  
@@ -72,8 +67,3 @@ python cutie.py
 ## 📜 License  
 
 This project is open-source and available under the MIT License. See the `LICENSE` file for details.  
-```
-
----
-
-Now, just copy and paste this into your `README.md` file! 🚀
